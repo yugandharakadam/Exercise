@@ -1,0 +1,3 @@
+applications:
+- name: Excercise1
+  random-route: true

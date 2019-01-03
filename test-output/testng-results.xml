@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62496" started-at="2017-04-26T06:10:39Z" finished-at="2017-04-26T06:11:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62496" started-at="2017-04-26T06:10:39Z" finished-at="2017-04-26T06:11:41Z">
+      <class name="com.jpa.ex.controller.testEmployeeController">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2017-04-26T11:40:39Z" finished-at="2017-04-26T11:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="14040" started-at="2017-04-26T11:40:39Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-04-26T11:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="init" is-config="true" duration-ms="30" started-at="2017-04-26T11:40:53Z" finished-at="2017-04-26T11:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:40:53Z" finished-at="2017-04-26T11:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jpa.ex.controller.testEmployeeController.testAddEmployee(com.jpa.ex.model.Employee) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testAddEmployee(com.jpa.ex.model.Employee)[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="testAddEmployee" duration-ms="399" started-at="2017-04-26T11:40:53Z" data-provider="provideDummyEmployee" finished-at="2017-04-26T11:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Employee [firstName=Yuga, lastName=Kadam, loginName=ykadam, title=Engineer, address=null, role=null, department=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployee -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-04-26T11:40:53Z" finished-at="2017-04-26T11:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jpa.ex.controller.testEmployeeController.testAddEmployee(com.jpa.ex.model.Employee) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:40:53Z" finished-at="2017-04-26T11:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jpa.ex.controller.testEmployeeController.testAssignEmployeesToManager(com.jpa.ex.model.Employee) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testAssignEmployeesToManager(com.jpa.ex.model.Employee)[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="testAssignEmployeesToManager" duration-ms="48002" started-at="2017-04-26T11:40:53Z" data-provider="provideDummyEmployee1" depends-on-methods="com.jpa.ex.controller.testEmployeeController.testAddEmployee" finished-at="2017-04-26T11:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Employee [firstName=Yuga1, lastName=Kadam2, loginName=ykadam3, title=test, address=null, role=null, department=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssignEmployeesToManager -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-04-26T11:41:41Z" finished-at="2017-04-26T11:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jpa.ex.controller.testEmployeeController.testAssignEmployeesToManager(com.jpa.ex.model.Employee) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.jpa.ex.controller.testEmployeeController@7c8c9a05]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-04-26T11:41:41Z" finished-at="2017-04-26T11:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.jpa.ex.controller.testEmployeeController -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
